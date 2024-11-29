@@ -18,6 +18,7 @@ namespace compras.Helpers //
         public Task<int> Insert(Produto p)
         {
             return _conn.InsertAsync(p);
+
         }
         public Task<int> Delete(int id)
         {
@@ -25,7 +26,7 @@ namespace compras.Helpers //
         }
         public Task<List<Produto>> Update(Produto p)
         {
-            string sql = "Update Produto set descricao=?, Quantidade=?, Preco=? Where id=?";
+            string sql = "Update Produto set Descricao=?, Quantidade=?, Preco=? Where id=?";
             return _conn.QueryAsync<Produto>(sql, p.Descricao, p.Quantidade, p.Preco, p.Id);
 
         }
@@ -38,7 +39,7 @@ namespace compras.Helpers //
         public Task<List<Produto>> Search(string q)
         {
 
-            string sql = "SELECT * Produto Where Descricao LIKE '%" + q + '%';
+            string sql = "SELECT * FROM Produto WHERE Descricao LIKE '%" + q + "%'";
 
             return _conn.QueryAsync<Produto>(sql);
         }
