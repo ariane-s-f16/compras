@@ -1,7 +1,7 @@
 # Compras
 
 📋 **Sobre o Projeto**  
-O **Compras** é um aplicativo multiplataforma criado com .NET MAUI (Multi-platform App UI), permitindo que os usuários organizem suas listas de compras de maneira prática e eficiente. Ele é compatível com dispositivos Android, iOS, Windows e macOS, utilizando uma única base de código.
+O projeto **Compras** é um aplicativo multiplataforma criado com .NET MAUI (Multi-platform App UI), permitindo que os usuários gerenciem suas listas de compras de maneira ágil e eficiente. Ele é compatível com dispositivos Android, iOS, Windows e macOS, utilizando uma única base de código.
 
 🚀 **Tecnologias Empregadas**  
 - **Linguagem Principal:** C# (.NET 7.0)  
@@ -10,7 +10,7 @@ O **Compras** é um aplicativo multiplataforma criado com .NET MAUI (Multi-platf
 - **Arquitetura:** MVVM (Model-View-ViewModel)  
 
 ⚙️ **Principais Funcionalidades**  
-- Criaar e gerenciar várias listas de compras  
+- Criar e gerenciar várias listas de compras  
 - Adição, edição e exclusão de itens  
 - Marcação de itens como comprados  
 - Cálculo automático do valor total da compra  
@@ -29,7 +29,7 @@ O **Compras** é um aplicativo multiplataforma criado com .NET MAUI (Multi-platf
 A estrutura do projeto está organizada da seguinte maneira:
 
 ```
-MauiAppMinhasCompras/
+Compras/
 ├── Models/              # Classes de modelo de dados
 ├── ViewModels/          # Classes de ViewModel (MVVM)
 ├── Views/               # Páginas XAML da interface
@@ -46,7 +46,7 @@ MauiAppMinhasCompras/
 - **Platforms**: Código específico para cada plataforma (Android, iOS, Windows, macOS).
 
 ---
-Detalhes da Implementação
+### Detalhes da Implementação
 O aplicativo implementa o padrão MVVM (Model-View-ViewModel) para o desenvolvimento de software, proporcionando uma estrutura organizada que promove a manutenibilidade, a reutilização de código e a testabilidade. O SQLite é utilizado como banco de dados local para armazenar as listas de compras e seus itens.
 
 A interface é construída com XAML, aproveitando os recursos do .NET MAUI para criar uma experiência de usuário consistente em todas as plataformas suportadas.
@@ -60,7 +60,7 @@ Este projeto é licenciado sob a **Licença MIT**. Consulte o arquivo [LICENSE](
 
 ### Agradecimentos
 
-Agradecemos aos colaboradores e à comunidade .NET MAUI por todo o apoio e contribuição para a realização deste projeto.
+a Etec de jaú por todo o apoio e contribuição para a realização deste projeto.
 
 ---
 
